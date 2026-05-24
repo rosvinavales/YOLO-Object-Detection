@@ -36,7 +36,7 @@ choice = st.sidebar.radio("Navigate to:", menu)
 if choice == "1. Dataset Preparation":
     st.title("📂 Dataset Preparation")
     st.write("### Research & Dataset Fundamentals")
-    st.info("**Dataset Link:** [INSERT YOUR DATASET LINK HERE]")
+    st.info("**Dataset Link:** [https://universe.roboflow.com/misis-awstf/corn-qza4n]")
     
     st.markdown("""
     The dataset was selected and formatted specifically for **YOLO object detection**. 
