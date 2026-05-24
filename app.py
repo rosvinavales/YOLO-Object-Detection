@@ -36,7 +36,7 @@ choice = st.sidebar.radio("Navigate to:", menu)
 if choice == "1. Dataset Preparation":
     st.title("📂 Dataset Preparation")
     st.write("### Pre-annotated Dataset: Corn Detection")
-    st.info("**Dataset Source:** [Paste your Roboflow/Kaggle Link here]")
+    st.info("**Dataset Source:** [https://universe.roboflow.com/misis-awstf/corn-qza4n]")
     
     col1, col2 = st.columns(2)
     with col1:
