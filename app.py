@@ -26,7 +26,6 @@ menu = [
     "2. Training Results & Metrics", 
     "3. Image Testing (Live Demo)", 
     "4. Comparative Analysis",
-    "5. Submission Requirements"
 ]
 choice = st.sidebar.radio("Navigate to:", menu)
 
